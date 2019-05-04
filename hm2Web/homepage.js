@@ -1,6 +1,6 @@
 function encodingWord() {
     document.getElementById("userinput").value = "";
-    var length = Number(Math.floor(Math.random() * 20) + 5);
+    var length = Number(Math.floor(Math.random() * 15) + 5);
     var result = '';
     var characters = 'abcdefghijklmnopqrstuvwxyz0123456789.,';
     var charactersLength = characters.length;
