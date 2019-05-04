@@ -1,0 +1,36 @@
+body{
+    background-image: url('./imges/convLogo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.center-div{
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+}
+
+.convert-btn{
+    border-radius: 15px;
+    height: 35px;
+    outline: none;
+    font-size: 16px;
+    width:80px;
+    text-align: center;
+    padding: 5px;
+    background-color: lightskyblue;
+}
+
+#Progress_Status { 
+    width: 100%; 
+    background-color: #ddd; 
+} 
+    
+#myprogressBar { 
+    width: 0%; 
+    height: 15px; 
+    background-color: lightskyblue; 
+    text-align: center; 
+    line-height: 32px; 
+    color: black; 
+  } 

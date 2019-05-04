@@ -1,0 +1,32 @@
+<html>
+
+<head> 
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator.css">
+    <div class="center-div"> B2B Convertor </div>
+</head>
+
+<body>
+    <div hidden="true" id="Progress_Status"> 
+        <div id="myprogressBar"></div> 
+    </div>         
+    <h2> Please Insert A Legal Text: </h2>
+    <input type="text" id="num_inp"></input> 
+    <button class="convert-btn" onclick="convertNumber(document.getElementById('num_inp').value,document.getElementById('selcted_base').value)"> Convert </button>
+    <button class="convert-btn" onclick="reset()"> Reset</button>
+    <p> <strong> Please Select a Base </strong> </p>
+    <select id="selcted_base"> 
+        <option value="2" >Binary (Base 2)</option>
+        <option value="3" >Ternary (Base 3)</option>
+        <option value="4" >Quaternary (Base 4)</option>
+        <option value="5" >Quinary (Base 5)</option>
+        <option value="6" >Senary (Base 6)</option>
+        <option value="7" >Septenary (Base 7)</option>
+        <option value="8" >Octal (Base 8)</option>
+        <option value="9" >Nonary (Base 9)</option>
+        <option selected="selected" value="10" > Decimal (Base 10)</option>
+    </select>
+    <p id="result"></p>
+</body>
+
+</html>
