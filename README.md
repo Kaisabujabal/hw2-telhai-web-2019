@@ -1,5 +1,5 @@
 # hw2-telhai-web-2019
-alaa amasha
-kais abujabal
-wisam halabi
-shadi sabagh
+# Alaa Amasha
+# Kais AbuJabal
+# Wisam Halabi
+# Shadi Sabagh
